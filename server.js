@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 if (process.env.NODE.ENV === "production") {
   app.use(express.static("build"));
-  app.get("*", (req, res) => {
+  app.get("/", (req, res) => {
     req.sendFile(path.resolve(__dirname, "build", "index.html"));
   });
 }
