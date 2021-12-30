@@ -5,14 +5,14 @@ const path = require("path");
 
 const port = process.env.PORT || 5000;
 
-if (process.env.NODE.ENV === "production") {
+if(process.env.NODE.ENV === "production") {
   app.use(express.static("build"));
-  app.get("/", (req, res) => {
+  app.get("*", (req, res) => {
     req.sendFile(path.resolve(__dirname, "build", "index.html"));
   });
 }
 
 app.listen(port, (err) => {
-  if (err) return console.log(err);
-  console.log("Server running on port", port);
+  if(err) return console.log(err);
+  console.log("Server running on port: ", port);
 });
