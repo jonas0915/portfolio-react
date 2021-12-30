@@ -16,7 +16,8 @@
     "react-scripts": "^3.4.4"
   },
   "scripts": {
-    "start": "node app",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "start": "node app.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
