@@ -10,7 +10,7 @@ function Introduction() {
         </div>
         <div>
           <p>
-            - I am a Full Stack Web Develper with experience
+            - I am a Full Stack Web Develper with experience <space></space>
             <span className="language">
               JavaScript, React, NodeJS, Express, HTML & CSS, and MongoDB.
             </span>
