@@ -7,6 +7,7 @@ function Work() {
   return (
     <div className="container">
       <h2 id="mywork" className="container">
+        <span></span>
         My Work
       </h2>
       <div className="work-content">

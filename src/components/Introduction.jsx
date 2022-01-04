@@ -10,16 +10,16 @@ function Introduction() {
         </div>
         <div>
           <p>
-            - I'm a Web Develper solving real world problems using
+            - I am a Full Stack Web Develper with experience
             <span className="language">
-              JavaScript, React, NodeJS, Express, & MongoDB!
+              JavaScript, React, NodeJS, Express, HTML & CSS, and MongoDB.
             </span>
-            With that I have years of experience in the Culinary field. Always
-            seeking to improve what's around me. Passionate about food, creating
-            new things and travel.
+            My background is in the Culinary Industry with teams in a fast-paced
+            high quality work environment.
           </p>
         </div>
       </div>
+      <span id="middle"></span>
     </div>
   );
 }

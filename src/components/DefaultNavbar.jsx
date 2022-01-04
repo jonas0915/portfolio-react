@@ -9,7 +9,7 @@ function DefaultNavbar() {
             <a href="#top">About</a>
           </li>
           <li className="navbar-list">
-            <a href="#background">Work</a>
+            <a href="#middle">Work</a>
           </li>
           <li className="navbar-list">
             <a href="#footer1">Contact</a>

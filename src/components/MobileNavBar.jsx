@@ -24,13 +24,13 @@ function MobileNavbar() {
                 </a>
               </li>
               <li className="navbar-list">
-                <a href="#background" onClick={navMenu}>
+                <a href="#mywork" onClick={navMenu}>
                   Work
                 </a>
               </li>
               <li className="navbar-list">
                 <a href="#footer1" onClick={navMenu}>
-                  Home
+                  Contact
                 </a>
               </li>
             </ul>
