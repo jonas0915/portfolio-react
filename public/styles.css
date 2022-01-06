@@ -299,11 +299,11 @@ h4 {
   }
 
   .email a {
-    font-size: 16px;
-    margin-right: 12%;
+    font-size: 15px;
+    margin: auto 25%;
   }
   .resume {
-    margin-left: 35%;
+    margin: auto 20%;
   }
 }
 
@@ -407,11 +407,11 @@ h4 {
     height: 100%;
   }
 
-  .email {
-    margin-right: 20%;
+  .email a {
+    margin: auto 29%;
   }
 
   .resume {
-    margin-left: 42%;
+    margin: auto 42%;
   }
 }
