@@ -117,13 +117,6 @@ h4 {
   align-items: center;
 }
 
-/* .navbar-links li a {
-  list-style: none;
-  font-size: 25px;
-  margin: 0 20px;
-  padding: 10px;
-} */
-
 .navbar-links-mobile li a {
   text-decoration: none;
   color: white;
@@ -145,14 +138,6 @@ h4 {
   padding: 0 30px;
 }
 
-/* .navbar-social i a {
-  text-decoration: none;
-  border-radius: 10px;
-  color: white;
-  display: block;
-  padding: 0.5rem;
-} */
-
 /* Toggle button */
 .toggle-button {
   position: absolute;
@@ -164,13 +149,6 @@ h4 {
   width: 30px;
   height: 21px;
 }
-
-/* .toggle-button {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-} */
 
 .intro {
   height: 100vh;
@@ -253,27 +231,24 @@ h4 {
   align-items: center;
 }
 
-#contact {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.contact {
+  display: flex;
+  margin: auto 48%;
 }
 
-#contact p {
-  font-size: 50px;
-}
-
-.contactIcon {
-  font-size: 50px;
-}
-
-#email {
-  font-size: 30px;
+.email a {
+  font-size: 20px;
+  margin: auto 35%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #333;
 }
 
-#contact a:hover {
+.email a:hover {
   border-bottom: rgb(12, 105, 12) 2px solid;
+}
+
+.resume {
+  margin: 10px 45%;
 }
 
 .fas {
@@ -321,6 +296,14 @@ h4 {
 
   .navbar-social {
     margin: 0 13%;
+  }
+
+  .email a {
+    font-size: 16px;
+    margin-right: 12%;
+  }
+  .resume {
+    margin-left: 35%;
   }
 }
 
@@ -393,10 +376,6 @@ h4 {
     margin: auto 300px;
   }
 
-  /* .navbar-social.active {
-    display: flex;
-  } */
-
   .my-name {
     text-align: center;
     font-size: 35px;
@@ -416,10 +395,6 @@ h4 {
     padding-top: 20%;
   }
 
-  #email {
-    font-size: 20px;
-  }
-
   .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -430,5 +405,13 @@ h4 {
   #project-image {
     width: 100%;
     height: 100%;
+  }
+
+  .email {
+    margin-right: 20%;
+  }
+
+  .resume {
+    margin-left: 42%;
   }
 }

@@ -6,7 +6,7 @@ import React from "react";
 function Work() {
   return (
     <div className="container">
-      <h2 id="mywork" className="container">
+      <h2 id="mywork">
         <span></span>
         My Work
       </h2>
