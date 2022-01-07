@@ -19,7 +19,7 @@ function MobileNavbar() {
           <div className="navbar-links-mobile">
             <ul>
               <li className="navbar-list">
-                <a href="#top" onClick={navMenu}>
+                <a href="#pic-box" onClick={navMenu}>
                   About
                 </a>
               </li>

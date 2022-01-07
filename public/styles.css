@@ -189,11 +189,15 @@ h4 {
   margin-top: 40px;
 }
 
+#pic-box {
+  padding-top: 200px;
+}
+
 .picMe {
   position: relative;
   width: 200px;
   height: 250px;
-  padding: 10px;
+  padding: 0px;
   align-items: center;
   border-radius: 20px;
   border-style: solid 1px;
@@ -204,9 +208,9 @@ h4 {
   font-family: "EB Garamond", serif;
   font-weight: 900;
   font-size: 30px;
-  margin: 30px auto;
+  margin: 30px auto 10px auto;
   width: 50%;
-  padding: 10px;
+
   text-align: center;
 }
 
@@ -297,11 +301,18 @@ h4 {
   .navbar-social {
     margin: 0 13%;
   }
+  #mywork {
+    padding-top: 90px;
+  }
 
   .email a {
     font-size: 15px;
     margin: auto 18%;
     align-items: center;
+  }
+
+  .contact {
+    padding-top: 30px;
   }
 
   .resume {

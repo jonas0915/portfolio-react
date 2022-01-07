@@ -5,7 +5,7 @@ function Introduction() {
   return (
     <div className="container">
       <div id="background">
-        <div className="pic-box">
+        <div id="pic-box">
           <img className="picMe" src={MyPic} alt="myPhoto" />
         </div>
         <div>
