@@ -117,13 +117,6 @@ h4 {
   align-items: center;
 }
 
-/* .navbar-links li a {
-  list-style: none;
-  font-size: 25px;
-  margin: 0 20px;
-  padding: 10px;
-} */
-
 .navbar-links-mobile li a {
   text-decoration: none;
   color: white;
@@ -145,14 +138,6 @@ h4 {
   padding: 0 30px;
 }
 
-/* .navbar-social i a {
-  text-decoration: none;
-  border-radius: 10px;
-  color: white;
-  display: block;
-  padding: 0.5rem;
-} */
-
 /* Toggle button */
 .toggle-button {
   position: absolute;
@@ -164,13 +149,6 @@ h4 {
   width: 30px;
   height: 21px;
 }
-
-/* .toggle-button {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-} */
 
 .intro {
   height: 100vh;
@@ -211,11 +189,15 @@ h4 {
   margin-top: 40px;
 }
 
+#pic-box {
+  padding-top: 100px;
+}
+
 .picMe {
   position: relative;
   width: 200px;
   height: 250px;
-  padding: 10px;
+  padding: 0px;
   align-items: center;
   border-radius: 20px;
   border-style: solid 1px;
@@ -226,9 +208,9 @@ h4 {
   font-family: "EB Garamond", serif;
   font-weight: 900;
   font-size: 30px;
-  margin-bottom: 30px;
+  margin: 30px auto 10px auto;
   width: 50%;
-  padding: 10px;
+
   text-align: center;
 }
 
@@ -253,27 +235,24 @@ h4 {
   align-items: center;
 }
 
-#contact {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.contact {
+  display: flex;
+  margin: auto 48%;
 }
 
-#contact p {
-  font-size: 50px;
-}
-
-.contactIcon {
-  font-size: 50px;
-}
-
-#email {
-  font-size: 30px;
+.email a {
+  font-size: 20px;
+  margin: auto 35%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #333;
 }
 
-#contact a:hover {
+.email a:hover {
   border-bottom: rgb(12, 105, 12) 2px solid;
+}
+
+.resume {
+  margin: 10px 45%;
 }
 
 .fas {
@@ -321,6 +300,27 @@ h4 {
 
   .navbar-social {
     margin: 0 13%;
+  }
+  #mywork {
+    padding-top: 90px;
+  }
+
+  .email a {
+    font-size: 15px;
+    margin: auto 18%;
+    align-items: center;
+  }
+
+  /* #pic-box {
+    padding-top: 80px;
+  } */
+
+  .contact {
+    padding-top: 100px;
+  }
+
+  .resume {
+    margin: auto 38%;
   }
 }
 
@@ -393,10 +393,6 @@ h4 {
     margin: auto 300px;
   }
 
-  /* .navbar-social.active {
-    display: flex;
-  } */
-
   .my-name {
     text-align: center;
     font-size: 35px;
@@ -414,10 +410,6 @@ h4 {
 
   .intro {
     padding-top: 20%;
-  }
-
-  #email {
-    font-size: 20px;
   }
 
   .grid {
