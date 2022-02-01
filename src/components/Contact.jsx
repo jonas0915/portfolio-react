@@ -9,13 +9,16 @@ function Contact() {
       <div className="container">
         <ul className="contactList">
           <li className="contact">
-            <ContactMailIcon fontSize="large" />{" "}
+            <div className="contactIcon">
+              <ContactMailIcon fontSize="large" />
+            </div>
+
+            <div className="email">
+              <a href="mailto:edciljonas15@yahoo.com">edciljonas15@yahoo.com</a>
+            </div>
           </li>
-          <li className="email">
-            <a href="mailto:edciljonas15@yahoo.com">edciljonas15@yahoo.com</a>
-          </li>
+
           <li className="resume">
-            {" "}
             <Button variant="contained" color="primary">
               <a href={TechDev} target="#">
                 RESUME

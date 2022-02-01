@@ -1,0 +1,57 @@
+.intro {
+  height: 100vh;
+  /* creating a gradient using degree of gradient and mix colors */
+  background: -webkit-linear-gradient(-95deg, #333 48%, #f3f5fc 100%);
+  padding-top: 5%;
+  overflow: hidden;
+}
+
+.my-name {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 50px;
+  margin: 100px 0 0 20px;
+  color: rgb(221, 206, 206);
+}
+
+#about-me {
+  margin-top: 50px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 40px;
+  color: rgb(221, 206, 206);
+  text-align: center;
+}
+
+#background {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+
+#background p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 50px 0 20px 0;
+  margin-top: 40px;
+}
+
+#pic-box {
+  padding-top: 100px;
+}
+
+.picMe {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  padding: 0px;
+  align-items: center;
+  border-radius: 20px;
+  border-style: solid 1px;
+  background: rgb(192, 189, 189);
+}
+
+.language {
+  font-weight: 600;
+}
