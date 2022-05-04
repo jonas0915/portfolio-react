@@ -19,7 +19,7 @@ function Introduction() {
             fast-paced high quality work environment.
             <br />
             Hobbies I really enjoy includes working out, trying out new and good
-            places to eat around the city, and of course travelling...
+            places to eat around the city, and of course travelling.
           </p>
         </div>
       </div>
