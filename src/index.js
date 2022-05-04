@@ -10,4 +10,9 @@ import "./components/MobileNavBar.css";
 import "./components/Navigate.css";
 import "./components/Work.css";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <React.Fragment>
+    <App />
+  </React.Fragment>,
+  document.getElementById("root")
+);

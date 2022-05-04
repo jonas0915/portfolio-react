@@ -28,8 +28,8 @@ function Navigate() {
         <div className="container">
           <p className="my-name">Hello there! I'm Jonas Penaso...</p>
           <p id="about-me">
-            - Culinary & Tech Professional looking for opportunities in Culinary
-            and Web Development.
+            - Culinary & Tech Professional looking for opportunities in Tech and
+            more specifically in Software Development.
           </p>
         </div>
       </div>

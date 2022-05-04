@@ -1,5 +1,5 @@
 import React from "react";
-import MyPic from "../photos/Prof.jpg";
+import MyPic from "../photos/JonasProfile.jpg";
 
 function Introduction() {
   return (
@@ -12,10 +12,11 @@ function Introduction() {
           <p>
             - I am a Full Stack Web Develper with experience <space></space>
             <span className="language">
-              JavaScript, React, NodeJS, Express, HTML & CSS, and MongoDB.
+              HTML & CSS, JavaScript, React, NodeJS, Express, SQL, Mongoose,
+              Mongoose. <br />
             </span>
-            My background is in the Culinary Industry with teams in a fast-paced
-            high quality work environment.
+            My background is in the Culinary Industry working with teams in a
+            fast-paced high quality work environment.
           </p>
         </div>
       </div>

@@ -1,7 +1,8 @@
 import React from "react";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
 import Button from "@material-ui/core/Button";
-import TechDev from "../photos/Jonas-Penaso-Cv.pdf";
+// import TechDev from "../photos/Jonas-Penaso-Cv.pdf";
+import TechDev from "../photos/Jonas Penaso techCV-22.pdf";
 
 function Contact() {
   return (

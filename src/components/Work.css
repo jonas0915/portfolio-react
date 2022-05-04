@@ -6,3 +6,9 @@
   width: 50%;
   text-align: center;
 }
+
+#work-desc {
+  text-align: center;
+  font-style: "EB Garamond", serif;
+  font-weight: 500;
+}
